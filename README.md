@@ -4,7 +4,7 @@ An end-to-end document intelligence system that classifies financial SEC filings
 
 ## Project Structure
 sec-classifier/
-├── data/          # raw and processed datasets
+├── data/          # dataset
 ├── src/
 │   ├── preprocess.py   # data loading, cleaning, labeling
 │   ├── features.py     # TF-IDF + custom feature engineering
@@ -15,6 +15,7 @@ sec-classifier/
 ├── models/             # saved model files
 └── requirements.txt
 Model folder contains the pkl file for best model while data folder contains a representative sample dataset for demonstration. Full SEC data set was used for training but is omitted due to size constraints.
+"data" folder contains labeled filings(processed data set), raw filings were omitted due to size constraints.
 
 
 ## Classification Setup
