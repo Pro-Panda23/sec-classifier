@@ -1,0 +1,10 @@
+datasets
+pandas
+scikit-learn
+xgboost
+catboost
+fastapi
+uvicorn
+joblib
+nltk
+scipy
