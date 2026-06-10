@@ -14,6 +14,8 @@ sec-classifier/
 │   └── app.py          # FastAPI prediction endpoint
 ├── models/             # saved model files
 └── requirements.txt
+Model folder contains the pkl file for best model while data folder contains a representative sample dataset for demonstration. Full SEC data set was used for training but is omitted due to size constraints.
+
 
 ## Classification Setup
 Labels are assigned based on economic era of filing date:
